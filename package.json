@@ -1,20 +1,14 @@
 {
-  "dependencies": {
-    "console.table": "^0.10.0",
-    "inquirer": "^8.2.0",
-    "mysql2": "^2.3.3"
-  },
-  "scripts": {
-    "start": "node server.js"
-  },
   "name": "employer-tracker",
   "description": "",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jfrancis268/Employer-tracker.git"
+  },
+  "scripts": {
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -22,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/jfrancis268/Employer-tracker/issues"
   },
-  "homepage": "https://github.com/jfrancis268/Employer-tracker#readme"
+  "homepage": "https://github.com/jfrancis268/Employer-tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.3"
+  }
 }
